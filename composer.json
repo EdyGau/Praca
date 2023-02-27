@@ -1,0 +1,28 @@
+{
+  "name": "fun-media/interview-microprocessor",
+  "description": "Coding round (PHP): Task 1",
+  "license": "Private",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Kuba Materac",
+      "email": "jakub.materac@fun-media.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FunMedia\\interview\\demo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FunMedia\\interview\\demo\\tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
